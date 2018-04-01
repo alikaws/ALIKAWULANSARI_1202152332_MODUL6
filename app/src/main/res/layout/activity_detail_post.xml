@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical"
+    android:paddingLeft="@dimen/activity_horizontal"
+    android:paddingRight="@dimen/activity_horizontal"
+    android:paddingTop="@dimen/activity_vertical"
+    tools:context="com.example.alita_pc.alika_1202152332_modul6.DetailPostActivity">
+
+    <include
+        android:id="@+id/layout_postauthor"
+        layout="@layout/include_post_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"/>
+
+    <include
+        android:id="@+id/layout_posttext"
+        layout="@layout/include_post_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_postauthor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    
+    <LinearLayout
+        android:id="@+id/comment_from"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_posttext"
+        android:layout_marginTop="20dp"
+        android:weightSum="1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/text_kolomkomen"
+            android:maxLines="1"
+            android:hint="Write a comment..."
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_postcomment"
+            android:text="Post"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/comment_from"
+        tools:listitem="@layout/item_comment"/>
+</RelativeLayout>

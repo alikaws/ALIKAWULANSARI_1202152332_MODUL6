@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679140419647",
+    "firebase_url": "https://modul6-96633.firebaseio.com",
+    "project_id": "modul6-96633",
+    "storage_bucket": "modul6-96633.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679140419647:android:1517a51d1c6058d5",
+        "android_client_info": {
+          "package_name": "com.example.alita_pc.alika_1202152332_modul6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679140419647-f4e85b90pbr3odnmt6v0b8puarfvmvkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alita_pc.alika_1202152332_modul6",
+            "certificate_hash": "2bf5e30c4d37c41ab871b797f98a23bed1861852"
+          }
+        },
+        {
+          "client_id": "679140419647-0hmqga3hp8j7t3b7gl8kn0vvd81u222a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj6XV9pENwtNMjkwGyLcE3svo_0N84U7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679140419647-0hmqga3hp8j7t3b7gl8kn0vvd81u222a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
